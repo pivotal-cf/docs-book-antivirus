@@ -13,13 +13,6 @@ elastic_search: true
 
 sections:
 
-# cross-product resources
-- repository:
-    name: pivotal-cf/docs-on-demand-service-broker
-    ref: v0.17.x
-  directory: addon-antivirus/odb
-  no_docs: true
-
 - repository:
     name: pivotal-cf/docs-addon-antivirus
     ref: 'master'
