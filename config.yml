@@ -20,7 +20,7 @@ sections:
   subnav_template: addon_antivirus.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.9
+    latest_stable_version: 1.2
     local_header_img: /images/cloud_rings.png
     local_header_title: ClamAV Add-on for PCF
     search_placeholder: ClamAV Add-on for PCF
