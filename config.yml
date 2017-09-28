@@ -17,7 +17,7 @@ sections:
     name: pivotal-cf/docs-addon-antivirus
     ref: 'master'
   directory: addon-antivirus/1-4
-  subnav_template: addon_antivirus_1-3.erb
+  subnav_template: addon_antivirus_1-4.erb
   product_info:
     use_local_header: true
     latest_stable_version: 1.3
