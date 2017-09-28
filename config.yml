@@ -16,7 +16,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-addon-antivirus
     ref: 'master'
-  directory: addon-antivirus/1-3
+  directory: addon-antivirus/1-4
   subnav_template: addon_antivirus_1-3.erb
   product_info:
     use_local_header: true
@@ -24,7 +24,7 @@ sections:
     local_header_img: /images/cloud_rings.png
     local_header_title: ClamAV Add-on for PCF
     search_placeholder: ClamAV Add-on for PCF
-    url_prefix: addon-antivirus/1-3
+    url_prefix: addon-antivirus/1-4
     local_product_version: "1.3"
     local_header_links: []
     local_header_version_list:
