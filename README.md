@@ -4,9 +4,9 @@
 
 * This book repo is for building the **edge** version of the ClamAV Add-on for PCF content, that is, content for the next unreleased version of the product. 
 
-* The content repo is in **pivotalcf/docs-addon-antivirus**. 
+* The content repo is in **pivotal-cf/docs-addon-antivirus**. 
 
-* The production version of this doc is built as part of the pcfservices book: **pivotalcf/docs-book-pcfservices**. 
+* The production version of this doc is now built as part of the  **pivotal-cf/docs-book-antivirus**. 
 
 * The `master_middleman` folder contains the templates used for publishing.
 
