@@ -6,7 +6,7 @@
 
 * The content repo is in **pivotal-cf/docs-addon-antivirus**. 
 
-* The production version of this doc is now built as part of the  **pivotal-cf/docs-book-antivirus**. 
+* The production version of this doc is now built as part of **pivotal-cf/docs-book-antivirus**. 
 
 * The `master_middleman` folder contains the templates used for publishing.
 
