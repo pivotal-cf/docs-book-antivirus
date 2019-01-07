@@ -8,7 +8,7 @@ template_variables:
   product_full: Elastic Runtime
   product_short: Elastic Runtime
   product_name: PCF
-  product_abbr: 
+  product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
@@ -89,7 +89,7 @@ template_variables:
   link_adminguide_domains: For admin-specific commands, refer to the <a href="../../adminguide/manage-domains-routes.html">Managing Domains and Routes</a> topic.
   logg_forwarding: <a href="../opsguide/logging-config-opsman.html#syslog-forward">Configuring System Logging in Elastic Runtime</a>
   logg_scaling: <a href="../opsguide/logging-config-opsman.html#scaling">Configuring System Logging in Elastic Runtime</a>
-  loggregator_links: <ul><li><a href="../opsguide/metrics.html" class="subnav">The Pivotal Cloud Ops Approach to Monitoring a Pivotal Cloud Foundry Deployment</a></li><li><a href="../customizing/self-signed-ssl.html" class="subnav">Using SSL with a Self-Signed Certificate in JMX Bridge</a><li><a href="../customizing/deploy-metrics.html" class="subnav">Deploying JMX Bridge</a></li><li><a href="../customizing/use-metrics.html" class="subnav">Using JMX Bridge</a></li></ul>
+  loggregator_links: <a href="../opsguide/metrics.html" class="subnav">The Pivotal Cloud Ops Approach to Monitoring a Pivotal Cloud Foundry Deployment</a>
   loggregator_name_or_link: <a href="http://docs.pivotal.io/pivotalcf/loggregator/architecture.html">Loggregator</a>
   manage_roles_footnote: <sup>&Dagger;</sup>Defaults to no. Yes if `ENABLE_NON_ADMIN_ROLE_MANAGEMENT` is `true`.
   manage_roles_pws_no: <sup>&Dagger;</sup>
