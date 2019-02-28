@@ -21,6 +21,7 @@ sections:
   product_info:
     use_local_header: true
     latest_stable_version: 1.4
+    changelog_href: https://docs.pivotal.io/addon-antivirus/1-4/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: ClamAV Add-on for PCF
     search_placeholder: Search ClamAV Add-on for PCF 1.4
