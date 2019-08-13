@@ -4,7 +4,7 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 }
 
 # temporary 2-0 avoidance
-r301 %r{/addon-antivirus/2-0/(.*)}, "/addon-antivirus/1-4/$1"
+r302 %r{/addon-antivirus/2-0/(.*)}, "/addon-antivirus/1-4/$1"
 
 # default product redirect
 r301 %r{/addon-antivirus/(?![\d-]+)(.*)}, "/addon-antivirus/1-4/$1"
