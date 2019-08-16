@@ -31,8 +31,8 @@ sections:
     local_header_version_list:
       - url_prefix: http://docs.pivotal.io/addon-antivirus/1-4
         display_name: 1.4
-      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.3.pdf">v1.3</a>
-      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.2.pdf">v1.2</a>
+      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.3.pdf">1.3 (PDF)</a>
+      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.2.pdf">1.2 (PDF)</a>
 
 - repository:
     name: pivotal-cf/docs-addon-antivirus
@@ -52,5 +52,5 @@ sections:
     local_header_version_list:
       - url_prefix: http://docs.pivotal.io/addon-antivirus/2-0
         display_name: ''
-      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.3.pdf">v1.3</a>
-      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.2.pdf">v1.2</a>
+      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.3.pdf">1.3 (PDF)</a>
+      - <a href="http://docs.pivotal.io/archives/addon-antivirus-1.2.pdf">1.2 (PDF)</a>
