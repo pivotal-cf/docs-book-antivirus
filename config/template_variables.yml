@@ -5,6 +5,7 @@ template_variables:
   title: <span class="title-deemph">Pivotal</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
+  platform: Pivotal Platform
   product_full: Pivotal Anti-Virus
   product_full_mirror: Pivotal Anti-Virus Mirror
   product_short:
