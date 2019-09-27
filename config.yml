@@ -12,6 +12,13 @@ public_host: docs.pivotal.io
 elastic_search: true
 
 sections:
+  
+# cross-product resources
+- repository:
+    name: pivotal-cf/docs-partials
+    ref: master
+  directory: antivirus/partials
+  no_docs: true
 
 - repository:
     name: pivotal-cf/docs-addon-antivirus
