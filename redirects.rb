@@ -10,3 +10,6 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 r301 %r{/addon-antivirus/(?![\d-]+)(.*)}, "/addon-antivirus/2-0/$1"
 r301 %r{/addon-antivirus/1-3/(.*)}, 'http://docs.pivotal.io/archives/addon-antivirus-1.3.pdf'
 r301 %r{/addon-antivirus/1-2/(.*)}, 'http://docs.pivotal.io/archives/addon-antivirus-1.2.pdf'
+
+# updating-for-xenial page is not in the 2.0 docs
+r302 %r{/addon-antivirus/2-0/updating-for-xenial.html}, 'http://docs.pivotal.io/addon-antivirus/2-0/index.html'
