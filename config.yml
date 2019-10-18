@@ -32,7 +32,7 @@ sections:
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Anti-Virus
     search_placeholder: Search Pivotal Anti-Virus 2.1
-    url_prefix: addon-antivirus/2-0
+    url_prefix: addon-antivirus/2-1
     local_product_version: 2.1
     local_header_links: []
     local_header_version_list:
