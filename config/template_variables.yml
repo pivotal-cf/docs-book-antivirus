@@ -5,16 +5,10 @@ template_variables:
   title: <span class="title-deemph">Pivotal</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  platform_name: Pivotal Platform
-  platform_old: Pivotal Cloud Foundry 
-  platform_code: PCF 
-  product_name_lc: pcf
   product_full: Pivotal Anti-Virus
   product_full_mirror: Pivotal Anti-Virus Mirror
-  product_short:
-  product_short_mirror:
-  product_name: Anti-Virus
-  product_name_mirror: Anti-Virus Mirror
+  product_short: Anti-Virus
+  product_short_mirror: Anti-Virus Mirror
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
@@ -23,9 +17,24 @@ template_variables:
   support_url: http://support.pivotal.io
   path_to_partials: /antivirus/partials
 
+# Product variables
+  ops_manager_full: Pivotal Operations Manager
+  ops_manager: Ops Manager
+  platform_name: Pivotal Platform
+  platform_old: Pivotal Cloud Foundry
+  platform_code: PCF
+  product_name_lc: pcf
+  app_runtime_full: Pivotal Application Service
+  app_runtime: Application Service
+  app_runtime_abbr: PAS
+  k8s_runtime_full: Enterprise Pivotal Container Service
+  k8s_runtime: Enterprise PKS
+  k8s_runtime_abbr: PKS
+  windows_runtime_full: Pivotal Application Service for Windows
+  windows_runtime: Application Service for Windows
+  windows_runtime_abbr: PASW
 
-# ======== Existing Variables ========
-
+# Book content variables
   api_version: 235
   gtm_account_id: GTM-MW4LZHR
   admin: your Cloud Foundry administrator
