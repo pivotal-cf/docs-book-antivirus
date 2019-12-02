@@ -10,6 +10,8 @@ template_variables:
   product_short: Anti-Virus
   product_short_mirror: Anti-Virus Mirror
   product_abbr:
+  product_name: Pivotal Anti-Virus #Do not use this in the future.
+  product_old: ClamAV Add-on for PCF
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
