@@ -1,8 +1,8 @@
-#  ClamAV Add-on for PCF
+#  Pivotal Anti-Virus
 
 ## About this Repo
 
-* This book repo is for building the **edge** version of the ClamAV Add-on for PCF content, that is, content for the next unreleased version of the product. 
+* This book repo is for building the **edge** version of the Pivotal Anti-Virus content, that is, content for the next unreleased version of the product. 
 
 * The content repo is in **pivotal-cf/docs-addon-antivirus**. 
 
@@ -18,7 +18,7 @@ Bookbinder enables us to single-source docs content for multiple contexts.
 
 So, for example, the docs for the Cloud Foundry command-line tool (cf CLI) exist in a single repo and are published to all three documentation sets:
 
-* [Pivotal Cloud Foundry (PCF), PCF Services, PCF Partner Services, and PCF Add-ons](http://docs.pivotal.io)
+* [Pivotal Platform, Pivotal Platform Services, Pivotal Platform Partner Services, and Pivotal Platform Add-ons](http://docs.pivotal.io)
 * [run.pivotal](http://docs.run.pivotal.io)
 * [Open Source](http://docs.cloudfoundry.org)
 
@@ -66,15 +66,15 @@ See the config.yml for details.
 
 ## Notes on the config.yml 
 
-Template variables for the PCF docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder. 
+Template variables for the Pivotal Platform docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder. 
 
 The "sections" section of the `config.yml` file is organized as follows:
 
-- First "sections" section contains all repos for PCF docs in the cloudfoundry org, in alphabetical order.
-- Next "sections" section contains all repos for PCF docs in the pivotal-cf org, in alphabetical order.
+- First "sections" section contains all repos for Pivotal Platform docs in the cloudfoundry org, in alphabetical order.
+- Next "sections" section contains all repos for Pivotal Platform docs in the pivotal-cf org, in alphabetical order.
 - Next "sections" section contains the repo where we store product PDFs
-- Next "sections" section contains all repos for non-PCF docs in the pivotal-cf org, in alphabetical order.
-- Next "sections" section contains all repos for non-PCF docs in the other orgs, in alphabetical order.
+- Next "sections" section contains all repos for non-Pivotal Platform docs in the pivotal-cf org, in alphabetical order.
+- Next "sections" section contains all repos for non-Pivotal Platform docs in the other orgs, in alphabetical order.
 
 ## Determine Content Repos and Branches of a Book
 
