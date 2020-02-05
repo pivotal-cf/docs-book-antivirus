@@ -93,7 +93,7 @@ template_variables:
   example_ip_2: 198.51.100.1
   example_ip_3: 203.0.113.1
   external_ips: external IP addresses
-  first_product_name: Pivotal Cloud Foundry&reg; (PCF)
+
   ga_account_id: UA-39702075-1
   gen_GSG:
   global_header_product_href: https://network.pivotal.io/
