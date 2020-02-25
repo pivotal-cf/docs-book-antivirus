@@ -31,7 +31,6 @@ template_variables:
   k8s_runtime_full: Enterprise Pivotal Container Service
   k8s_runtime_abbr: PKS
   windows_runtime_full: Pivotal Application Service for Windows
-  windows_runtime: Application Service for Windows
   windows_runtime_abbr: PASW
 
 # Book content variables
