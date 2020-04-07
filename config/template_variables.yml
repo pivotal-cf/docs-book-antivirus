@@ -1,4 +1,6 @@
 ---
+#v1.4 does not currently use template variables
+
 template_variables:
   book_title: Pivotal Documentation
   book_title_short: Pivotal Docs
