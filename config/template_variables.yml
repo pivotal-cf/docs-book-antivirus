@@ -5,13 +5,13 @@ template_variables:
   title: <span class="title-deemph">Pivotal</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  product_full: Pivotal Anti-Virus
-  product_full_mirror: Pivotal Anti-Virus Mirror
+  product_full: Anti-Virus
+  product_full_mirror: Anti-Virus Mirror
   product_short: Anti-Virus
   product_short_mirror: Anti-Virus Mirror
   product_abbr: AV #Not used
-  product_name: Pivotal Anti-Virus #Do not use this in the future.
-  product_old: ClamAV Add-on for PCF
+  product_name: Anti-Virus #Do not use this in the future.
+  product_old: Pivotal Anti-Virus
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
