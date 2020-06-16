@@ -1,14 +1,27 @@
-#  Pivotal Anti-Virus
+# Anti-Virus
 
 ## About this Repo
 
-* This book repo is for building the **edge** version of the Pivotal Anti-Virus content, that is, content for the next unreleased version of the product. 
+* This book repo is for building the documentation for Anti-Virus.
 
-* The content repo is in **pivotal-cf/docs-addon-antivirus**. 
-
-* The production version of this doc is now built as part of **pivotal-cf/docs-book-antivirus**. 
+* The content repo is in [**pivotal-cf/docs-addon-antivirus**](https://github.com/pivotal-cf/docs-addon-antivirus).
 
 * The `master_middleman` folder contains the templates used for publishing.
+
+The redirect for the unversioned route is in `docs-book-pcfservices`. We update this redirect for each minor release so that the a URL without a version number redirects to latest release.
+For example: `r302 %r{/addon-antivirus/(?![\d-]+)(.*)}, "/addon-antivirus/2-2/$1"`
+
+All other redirects are in the local `redirects.rb` file for all the versions that the redirects apply to.
+
+Each version of Anti-Virus has its own book branch:
+
+| Branch name | Use for… |
+|-------------| -------|
+| master      | "edge" branch for v2.x, publishes to https://docs-pcf-staging.cfapps.io/addon-antivirus/2-n/ |
+| 2.2         | v2.2.x |
+| 2.1         | v2.1.x |
+| 2.0         | v2.0.x |
+| 1.4         | v1.4.x |
 
 ## The Docs Toolchain
 
@@ -27,10 +40,10 @@ So, for example, the docs for the Cloud Foundry command-line tool (cf CLI) exist
 The docs team prefers to receive documentation contributions as pull requests rather than having engineering teams push directly to the docs repos.
 This gives us a chance to review the changes for consistency and understand the new content.
 
-If you are planning to initiate a large documentation effort, please coordinate with the docs team in advance to make sure we're not going to step on each other. 
+If you are planning to initiate a large documentation effort, please coordinate with the docs team in advance to make sure we're not going to step on each other.
 You can reach the docs team by email at [cf-docs@pivotal.io](mailto:cf-docs@pivotal.io).
 
-If you are trying to figure out where a particular bit of information should live, please reach out and ask. 
+If you are trying to figure out where a particular bit of information should live, please reach out and ask.
 We're happy to help you ensure information goes to the right place.
 
 Note that content often lives in more than one context.
@@ -45,8 +58,8 @@ This is a Bookbinder project. See [its README](https://github.com/pivotal-cf/boo
 
 We deploy this documentation as an app using Concourse pipelines, at https://p-concourse.wings.cf-app.com/teams/system-team-docs-docs-1-88aa/pipelines/cf-current?groups=pcfservices
 
-Credential for our pipeline are stored in LastPass. 
-Tarballs of the builds are stored on Amazon S3. 
+Credential for our pipeline are stored in LastPass.
+Tarballs of the builds are stored on Amazon S3.
 Use the creds stored in LastPass to log in.
 
 The CI status can be monitored via the [Checkman](https://github.com/cppforlife/checkman) application (Mac only).
@@ -64,9 +77,9 @@ Staging and Production are both on run.pivotal.io:
 
 See the config.yml for details.
 
-## Notes on the config.yml 
+## Notes on the config.yml
 
-Template variables for the Pivotal Platform docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder. 
+Template variables for the Pivotal Platform docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder.
 
 The "sections" section of the `config.yml` file is organized as follows:
 
@@ -103,4 +116,3 @@ or on the branch corresponding to its version number.
   ```
 
   `ref: '225'` refers to the 225 branch of the docs-cloudfoundry-concepts repo. Cloud Foundry v225 is associated with the PCF v1.6 release.
-
