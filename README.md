@@ -8,7 +8,8 @@
 
 * The `master_middleman` folder contains the templates used for publishing.
 
-The redirect for the unversioned route is in `docs-book-pcfservices`. We update this redirect for each minor release so that the a URL without a version number redirects to latest release.
+The redirect for the unversioned route is in `docs-book-pcfservices`. 
+We update this redirect for each minor release so that a URL without a version number redirects to the latest release.
 For example: `r302 %r{/addon-antivirus/(?![\d-]+)(.*)}, "/addon-antivirus/2-2/$1"`
 
 All other redirects are in the local `redirects.rb` file for all the versions that the redirects apply to.
