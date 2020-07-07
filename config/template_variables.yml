@@ -7,8 +7,8 @@ template_variables:
   hero_text: "Detailed documentation to help you install, understand, and succeed with VMware Tanzu's enterprise-grade software."
 
 # VMware Tanzu Variables
-  product_full: Anti-Virus
-  product_full_mirror: Anti-Virus Mirror
+  product_full: Anti-Virus for VMware Tanzu
+  product_full_mirror: Anti-Virus Mirror for VMware Tanzu
   product_short: Anti-Virus
   product_short_mirror: Anti-Virus Mirror
   product_abbr: AV #Not used

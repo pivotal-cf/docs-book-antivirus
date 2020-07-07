@@ -30,7 +30,7 @@ sections:
     latest_stable_version: 2.2
     changelog_href: https://docs.pivotal.io/addon-antivirus/2-2/release-notes.html
     local_header_img: /images/cloud_rings.png
-    local_header_title: Anti-Virus
+    local_header_title: Anti-Virus for VMware Tanzu
     search_placeholder: Search Anti-Virus 2.2
     url_prefix: addon-antivirus/2-2
     local_product_version: 2.2
