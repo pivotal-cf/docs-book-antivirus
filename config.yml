@@ -22,7 +22,7 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-addon-antivirus
-    ref: 'master'
+    ref: '2.3'
   directory: addon-antivirus/2-3
   subnav_template: addon_antivirus_2-3.erb
   product_info:
