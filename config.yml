@@ -27,7 +27,7 @@ sections:
   subnav_template: addon_antivirus_2-2.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 2.2
+    latest_stable_version: 2.3
     changelog_href: https://docs.pivotal.io/addon-antivirus/2-2/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Anti-Virus for VMware Tanzu
@@ -36,6 +36,8 @@ sections:
     local_product_version: 2.2
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/addon-antivirus/2-3
+        display_name: 2.3
       - url_prefix: http://docs.pivotal.io/addon-antivirus/2-1
         display_name: 2.1
       - url_prefix: http://docs.pivotal.io/addon-antivirus/2-0
