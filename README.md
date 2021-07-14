@@ -8,7 +8,7 @@
 
 * The `master_middleman` folder contains the templates used for publishing.
 
-The redirect for the unversioned route is in `docs-book-pcfservices`. 
+The redirect for the unversioned route is in `docs-book-pcfservices`.
 We update this redirect for each minor release so that a URL without a version number redirects to the latest release.
 For example: `r302 %r{/addon-antivirus/(?![\d-]+)(.*)}, "/addon-antivirus/2-2/$1"`
 
@@ -19,6 +19,7 @@ Each version of Anti-Virus has its own book branch:
 | Branch name | Use for… |
 |-------------| -------|
 | master      | "edge" branch for v2.x, publishes to https://docs-pcf-staging.cfapps.io/addon-antivirus/2-n/ |
+| 2.3         | v2.3.x |
 | 2.2         | v2.2.x |
 | 2.1         | v2.1.x |
 | 2.0         | v2.0.x |
