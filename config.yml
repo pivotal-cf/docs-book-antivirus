@@ -23,17 +23,17 @@ sections:
 - repository:
     name: pivotal-cf/docs-addon-antivirus
     ref: 'master'
-  directory: addon-antivirus/3-n
-  subnav_template: addon_antivirus_3-n.erb
+  directory: addon-antivirus/2-n
+  subnav_template: addon_antivirus_2-n.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 2.3
-    changelog_href: https://docs.pivotal.io/addon-antivirus/3-n/release-notes.html
+    latest_stable_version: 2.4
+    changelog_href: https://docs.pivotal.io/addon-antivirus/2-n/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Anti-Virus for VMware Tanzu
-    search_placeholder: Search Anti-Virus 3.0
-    url_prefix: addon-antivirus/3-n
-    local_product_version: 3.0
+    search_placeholder: Search Anti-Virus 2.4
+    url_prefix: addon-antivirus/2-n
+    local_product_version: 2.4
     local_header_links: []
     local_header_version_list:
       - url_prefix: http://docs.pivotal.io/addon-antivirus/2-3
