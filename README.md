@@ -18,7 +18,7 @@ Each version of Anti-Virus has its own book branch:
 
 | Branch name | Use for… |
 |-------------| -------|
-| master      | "edge" branch for v2.x, publishes to https://docs-pcf-staging.cfapps.io/addon-antivirus/3-n/ |
+| master      | "edge" branch for v2.x, publishes to https://docs-pcf-staging.cfapps.io/addon-antivirus/2-n/ |
 | 2.3         | v2.3.x |
 | 2.2         | v2.2.x |
 | 2.1         | v2.1.x |
